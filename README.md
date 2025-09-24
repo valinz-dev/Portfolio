@@ -11,6 +11,9 @@ Data utilities – parsing, cleaning, and organizing information
 
 Infrastructure helpers – supporting reliability in complex environments
 
+
+
+
 Tech I Work With:
 
 Python
@@ -23,11 +26,16 @@ SQL
 
 Git / GitHub
 
+
+
+
 How to Use...
 
 Clone the repo:
 
 git clone https://github.com/your-username/tech-portfolio.git
+
+
 
 
 
