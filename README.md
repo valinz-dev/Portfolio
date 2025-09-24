@@ -1,6 +1,5 @@
 # Portfolio
 
-
 This repository showcases scripts and small projects that I have personally engineered and deployed in multimillion-dollar infrastructure environments. Each example reflects my ability to design, automate, and support reliable solutions that are actively used in production.
 
 OVERVIEW
