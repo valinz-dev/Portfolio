@@ -1,44 +1,26 @@
 # Portfolio
-This portfolio showcases scripts and small projects that I have personally engineered and deployed in multimillion-dollar infrastructure environments. Each example reflects my ability to design, automate, and support reliable solutions that are actively used in production — not just side experiments.
-
-What’s Inside?
-
-Automation scripts – reducing repetitive work and improving efficiency
-
-System tools – managing logs, files, and configurations at scale
-
-Data utilities – parsing, cleaning, and organizing information
-
-Infrastructure helpers – supporting reliability in complex environments
 
 
+This repository showcases scripts and small projects that I have personally engineered and deployed in multimillion-dollar infrastructure environments. Each example reflects my ability to design, automate, and support reliable solutions that are actively used in production.
 
+OVERVIEW
+This portfolio includes automation scripts to reduce repetitive tasks and improve efficiency, system tools for managing logs, files, and configurations at scale, data utilities for parsing and cleaning information, and infrastructure helpers that support uptime and reliability.
 
-Tech I Work With:
-
+TECHNOLOGIES
 Python
-
 Bash / Shell scripting
-
 PowerShell
-
 SQL
-
 Git / GitHub
 
+USAGE
 
-
-
-How to Use...
-
-Clone the repo:
-
+Clone the repository
 git clone https://github.com/your-username/tech-portfolio.git
 
+Explore the project folders
 
+Each script contains comments or usage notes to explain functionality
 
-
-
-Purpose:
-
-The goal of this repository is to give employers and collaborators a clear view of how I approach technical challenges. These scripts are real-world solutions I’ve written, tested, and deployed — showing not only how I code, but how I deliver value in professional environments.
+PURPOSE
+This repository is intended to demonstrate my coding style and technical skills in a professional context. The scripts here are not just experiments — they are solutions I have written, tested, and deployed to support production systems and large-scale infrastructure.
