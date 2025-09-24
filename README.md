@@ -1,4 +1,21 @@
 # Portfolio
+## 📚 About Me
+
+Young, Aspiring PenTester
+
+From the age of 14, I've been extremely tech and network centric; building my first computer at 14 and experimenting with Wireshark, Cain and Abel, LANC, and proxy servers later that same year.
+
+Since then, I've excelled in every environment I've landed in—not just with knowledge, but also through my strong communication skills and charismatic demeanor. In high school, I was selling computers, providing tech support to friends, ranking in HTB comps, and experimenting with creating my own tools to aid my pen-testing journey. I graduated early, enrolled at WGU for a Cyber Reliability course, and was picked up a month after graduation to work at a respected law firm, where I've grown astronomically in the tech and security world.
+ 
+---
+
+## 📩 Contact
+
+Feel free to reach out:
+- Email: Vanders2023@gmail.com
+- LinkedIn: https://www.linkedin.com/in/valinz-anders/
+
+---
 
 This repository showcases scripts and small projects that I have personally engineered and deployed in multimillion-dollar infrastructure environments. Each example reflects my ability to design, automate, and support reliable solutions that are actively used in production.
 
