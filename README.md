@@ -1,7 +1,7 @@
 # Portfolio
 ## 📚 About Me
 
-Young, Aspiring PenTester
+Young, Aspiring Cloud Security Engineer
 
 From the age of 14, I've been extremely tech and network centric; building my first computer at 14 and experimenting with Wireshark, Cain and Abel, LANC, and proxy servers later that same year.
 
