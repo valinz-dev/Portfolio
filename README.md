@@ -5,8 +5,8 @@ Young, Aspiring Cloud Security Engineer
 
 From the age of 14, I've been extremely tech and network centric; building my first computer at 14 and experimenting with Wireshark, Cain and Abel, LANC, and proxy servers later that same year.
 
-Since then, I've excelled in every environment I've landed in—not just with knowledge, but also through my strong communication skills and charismatic demeanor. In high school, I was selling computers, providing tech support to friends, ranking in HTB comps, and experimenting with creating my own tools to aid my pen-testing journey. I graduated early, enrolled at WGU for a Cyber Reliability course, and was picked up a month after graduation to work at a respected law firm, where I've grown astronomically in the tech and security world.
- 
+Since then, I've excelled in every tech environment I've landed in—not just with knowledge, but also through my strong communication skills and charismatic demeanor. In high school, I was building and selling computers, providing tech support to friends, ranking in HTB comps, and experimenting with creating my own micro tools to automate everyday life. I graduated early, enrolled at WGU for a Cyber Reliability course, and was picked up a month after graduation to work at a respected law firm, where I've grown astronomically in the tech and security world.
+
 ---
 
 ## 📩 Contact
