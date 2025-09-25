@@ -36,6 +36,7 @@ git clone https://github.com/your-username/tech-portfolio.git
 
 Explore the project folders
 
+Last updated: 2025-09-24
 Each script contains comments or usage notes to explain functionality
 
 PURPOSE
