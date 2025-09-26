@@ -19,8 +19,7 @@ Feel free to reach out:
 
 This repository showcases scripts and small projects that I have personally engineered and deployed in multimillion-dollar infrastructure environments. Each example reflects my ability to design, automate, and support reliable solutions that are actively used in production.
 
-OVERVIEW
-This portfolio includes automation scripts to reduce repetitive tasks and improve efficiency, system tools for managing logs, files, and configurations at scale, data utilities for parsing and cleaning information, and infrastructure helpers that support uptime and reliability.
+It includes automation scripts to reduce repetitive tasks and improve efficiency, system tools for managing logs, files, and configurations at scale, data utilities for parsing and cleaning information, and infrastructure helpers that support uptime and reliability.
 
 TECHNOLOGIES
 Python
