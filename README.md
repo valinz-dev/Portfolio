@@ -29,17 +29,8 @@ PowerShell
 SQL
 Git / GitHub
 
-USAGE
-
-Clone the repository
-git clone https://github.com/your-username/tech-portfolio.git
-
-Explore the project folders
-
-
-Each script contains comments or usage notes to explain functionality
 
 PURPOSE
 This repository is intended to demonstrate my coding style and technical skills in a professional context. The scripts here are not just experiments — they are solutions I have written, tested, and deployed to support production systems and large-scale infrastructure.
 
-Last updated: 2025-09-24
+Last updated: 2025-09-26
