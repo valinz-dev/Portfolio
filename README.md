@@ -11,7 +11,7 @@ Outside of work, I like to:
 
 Develop Discord bots for personal projects and friends.
 
-Build and tune my 446whp Ford Focus ST — including a full big turbo setup, custom fab work, wiring, tuning, and a custom audio system. (See progress: focusst.org profile
+Build and tune my 446whp Ford Focus ST — including a full big turbo setup, custom fab work, wiring, tuning, and a custom audio system. (See progress: [focusst.org profile](https://www.focusst.org/members/vanders.139893/)
 
 ---
 
