@@ -1,11 +1,17 @@
 # Portfolio
 ## 📚 About Me
 
-Young, Aspiring Cloud Security Engineer
+From the age of 14, I’ve been immersed in technology and networking. I built my first computer at 14 and spent that same year experimenting with tools like Wireshark, Cain & Abel, LANC, and proxy servers to understand network behavior at a deeper level.
 
-From the age of 14, I've been extremely tech and network centric; building my first computer at 14 and experimenting with Wireshark, Cain and Abel, LANC, and proxy servers later that same year.
+Since then, I’ve thrived in every technical environment I’ve entered—not only because of my technical knowledge, but also due to my strong communication skills, curiosity, and ability to connect with people. In high school, I was building and selling PCs, providing support for friends and small businesses, competing in Hack The Box challenges, and writing small automation tools to make everyday life easier.
 
-Since then, I've excelled in every tech environment I've landed in—not just with knowledge, but also through my strong communication skills and charismatic demeanor. In high school, I was building and selling computers, providing tech support to friends, ranking in HTB comps, and experimenting with creating my own micro tools to automate everyday life. I graduated early, enrolled at WGU for a Cyber Reliability course, and was picked up a month after graduation to work at a respected law firm, where I've grown astronomically in the tech and security world.
+I graduated early and enrolled at Western Governors University, pursuing a degree in Cybersecurity & Information Assurance, and soon after graduation, I joined a respected law firm as an IT professional. In this role, I’ve grown rapidly—bridging traditional infrastructure with modern security practices and sharpening my skills in legal-tech environments.
+
+Outside of work, I like to:
+
+Develop Discord bots for personal projects and friends.
+
+Build and tune my 446whp Ford Focus ST — including a full big turbo setup, custom fab work, wiring, tuning, and a custom audio system. (See progress: focusst.org profile
 
 ---
 
