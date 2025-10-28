@@ -5,7 +5,7 @@ From the age of 14, I’ve been immersed in technology and networking. I built m
 
 Since then, I’ve thrived in every technical environment I’ve entered—not only because of my technical knowledge, but also due to my strong communication skills, curiosity, and ability to connect with people. In high school, I was building and selling PCs, providing support for friends and small businesses, competing in Hack The Box challenges, and writing small automation tools to make everyday life easier.
 
-I graduated early and enrolled at Western Governors University, pursuing a degree in Cybersecurity & Information Assurance, and soon after graduation, I joined a respected law firm as an IT professional. In this role, I’ve grown rapidly—bridging traditional infrastructure with modern security practices and sharpening my skills in legal-tech environments.
+I graduated and enrolled at Western Governors University, pursuing a degree in Cybersecurity & Information Assurance, and soon after HS graduation, I joined a respected law firm as an IT professional. In this role, I’ve grown rapidly—bridging traditional infrastructure with modern security practices and sharpening my skills in legal-tech environments.
 
 Outside of work, I like to:
 
@@ -23,7 +23,7 @@ Feel free to reach out:
 
 ---
 
-This repository showcases scripts and small projects that I have personally engineered and deployed in multimillion-dollar infrastructure environments. Each example reflects my ability to design, automate, and support reliable solutions that are actively used in production.
+This repository showcases scripts and small projects that I have personally engineered and deployed in live environments. Each example reflects my ability to design, automate, and support reliable solutions that are actively used in production.
 
 It includes automation scripts to reduce repetitive tasks and improve efficiency, system tools for managing logs, files, and configurations at scale, data utilities for parsing and cleaning information, and infrastructure helpers that support uptime and reliability.
 
