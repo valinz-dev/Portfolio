@@ -39,8 +39,9 @@ function Install-iManage {
 }
 
 # Main script
-$oldVersionPath = "\\fs1\install\Program_Installs\iManage Autonomy\FileSite 9.3.6.807 (x86)\iManage Work FileSite (x86).msi"
-$newVersionPath = "\\fs1\install\Program_Installs\iManage Autonomy\iManage Installer 10.9.3.2\iManageInstaller.exe"
+# Replace these with the actual paths used in your environment
+$oldVersionPath = "\\<server>\path\to\old\iManageInstaller.msi"
+$newVersionPath = "\\<server>\path\to\new\iManageInstaller.exe"
 
 # Uninstall old version of iManage using WMI
 Uninstall-iManage -oldVersionPath $oldVersionPath
