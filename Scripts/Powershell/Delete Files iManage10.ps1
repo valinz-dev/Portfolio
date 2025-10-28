@@ -19,7 +19,7 @@ $imanagePaths = @(
 $deletedFiles = @()
 $notFoundFiles = @()
 
-# Loop through each path, attempt to delete the files and generate report
+# Loop through each path, attempt to delete the files and generate a report
 foreach ($path in $imanagePaths) {
     $fullPath = Join-Path -Path $userProfilePath -ChildPath $path
     if (Test-Path -Path $fullPath) {
