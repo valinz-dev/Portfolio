@@ -10,7 +10,7 @@ DISCORD_TOKEN = os.getenv("DISCORD_TOKEN")
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 openai.api_key = OPENAI_API_KEY
 
-# Intents
+# Discord Intents
 intents = discord.Intents.default()
 intents.message_content = True
 bot = commands.Bot(command_prefix="!", intents=intents)
@@ -30,25 +30,32 @@ async def hello(ctx):
 async def trial(ctx, member: discord.Member, *, reason: str = "No reason given"):
     # Special case: Austin (thunder.2240) is always guilty
     if f"{member.name}.{member.discriminator}" == "thunder.2240":
-        verdict = "GUILTY. Sentence: death by Lag Spike 💀"
+        verdict = "GUILTY. Sentence: death by lagspike💀"
     else:
-        # AI judge: brief, witty, and ends with GUILTY or NOT GUILTY
+        # AI judge prompt to strongly favor guilty if wrongdoing is implied
         prompt = f"""
-You are a sarcastic but fair courtroom judge.
-A defendant is on trial for: "{reason}".
-Decide if they are GUILTY or NOT GUILTY and give a short, witty explanation (1–2 sentences).
-End your response with either 'GUILTY' or 'NOT GUILTY'.
+You are a sarcastic but fair courtroom judge in a fictional Discord court.
+You must evaluate the following accusation as if it were real testimony:
+
+"{reason}"
+
+Guidelines:
+- If the action described involves any wrongdoing, bad behavior, or questionable intent, rule GUILTY.
+- Only rule NOT GUILTY if the reason clearly shows no misbehavior or harm.
+- Be witty but decisive in tone.
+- Your entire response must be 1–2 short sentences and end with either 'GUILTY' or 'NOT GUILTY'.
 """
+
         try:
             resp = openai.ChatCompletion.create(
                 model="gpt-3.5-turbo",
                 messages=[{"role": "user", "content": prompt}],
                 max_tokens=80,
-                temperature=0.8,
+                temperature=0.7,
             )
             verdict = resp.choices[0].message.content.strip()
         except Exception as e:
-            print(f"❌ OpenAI Error: {e}")  # This will show the actual reason in terminal
+            print(f"❌ OpenAI Error: {e}")
             verdict = "NOT GUILTY. (AI judge is unavailable—technical recess.)"
 
     embed = discord.Embed(
