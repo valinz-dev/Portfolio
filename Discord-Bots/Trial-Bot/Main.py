@@ -4,7 +4,7 @@ from discord.ext import commands
 from dotenv import load_dotenv
 import openai
 
-# Load secrets from .env
+# Load keys
 load_dotenv()
 DISCORD_TOKEN = os.getenv("DISCORD_TOKEN")
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
@@ -28,11 +28,11 @@ async def hello(ctx):
 
 @bot.command()
 async def trial(ctx, member: discord.Member, *, reason: str = "No reason given"):
-    # Special case: Austin (thunder.2240) is always guilty
+    # Special case: 
     if f"{member.name}.{member.discriminator}" == "thunder.2240":
         verdict = "GUILTY. Sentence: death by lagspike💀"
     else:
-        # AI judge prompt to strongly favor guilty if wrongdoing is implied
+        # prompt
         prompt = f"""
 You are a sarcastic but fair courtroom judge in a fictional Discord court.
 You must evaluate the following accusation as if it were real testimony:
