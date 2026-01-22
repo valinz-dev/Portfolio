@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake AI - Neural Network Visualization</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="stats-bar">
+            <div class="stat">
+                <span class="stat-label">Generation:</span>
+                <span id="generation" class="stat-value">1</span>
+            </div>
+            <div class="stat">
+                <span class="stat-label">Best Score:</span>
+                <span id="best-score" class="stat-value">0</span>
+            </div>
+            <div class="stat">
+                <span class="stat-label">Current Score:</span>
+                <span id="current-score" class="stat-value">0</span>
+            </div>
+            <div class="stat">
+                <span class="stat-label">Alive:</span>
+                <span id="alive-count" class="stat-value">0</span>
+            </div>
+        </header>
+
+        <main class="game-area">
+            <div class="canvas-container">
+                <h2>Snake Game</h2>
+                <canvas id="game-canvas" width="400" height="400"></canvas>
+            </div>
+            <div class="canvas-container">
+                <h2>Neural Network</h2>
+                <canvas id="nn-canvas" width="500" height="400"></canvas>
+            </div>
+        </main>
+
+        <footer class="controls">
+            <div class="control-group">
+                <label for="speed-slider">Speed:</label>
+                <input type="range" id="speed-slider" min="1" max="100" value="10">
+                <span id="speed-value">10x</span>
+            </div>
+            <div class="control-group">
+                <button id="pause-btn">Pause</button>
+                <button id="show-best-btn">Show Best</button>
+                <button id="reset-btn">Reset</button>
+            </div>
+        </footer>
+    </div>
+
+    <div class="credits">
+        Made by Valinz using JavaScript, HTML & CSS
+    </div>
+
+    <script src="js/utils.js"></script>
+    <script src="js/neural-network.js"></script>
+    <script src="js/snake.js"></script>
+    <script src="js/visualizer.js"></script>
+    <script src="js/evolution.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
